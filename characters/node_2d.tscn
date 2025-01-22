@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://hfdl8ghjdf2e"]
+
+[ext_resource type="PackedScene" uid="uid://bl2atg02ebbny" path="res://characters/bald_guy.tscn" id="1_gnyjv"]
+[ext_resource type="Texture2D" uid="uid://csaxb6rubs63" path="res://icon.svg" id="2_f3dfe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BaldGuy" parent="." instance=ExtResource("1_gnyjv")]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(181, 85)
+texture = ExtResource("2_f3dfe")
