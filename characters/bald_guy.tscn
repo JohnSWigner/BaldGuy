@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://lojbo8jvu0ak" path="res://resources/BaldGuy_Base.png" id="1_urk1e"]
 [ext_resource type="Texture2D" uid="uid://bn33hvesh3klx" path="res://resources/BaldGuy_Walking-Sheet.png" id="2_wae4r"]
 [ext_resource type="Script" path="res://characters/WeaponPivot.gd" id="4_hq57q"]
-[ext_resource type="Texture2D" uid="uid://csaxb6rubs63" path="res://icon.svg" id="4_xt0g8"]
+[ext_resource type="Texture2D" uid="uid://cai0b3lkxmls8" path="res://resources/Sword.png" id="5_vnlea"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7jbb6"]
 
@@ -75,6 +75,6 @@ position = Vector2(0, -27)
 shape = SubResource("RectangleShape2D_2o1vn")
 
 [node name="WeaponSprite" type="Sprite2D" parent="WeaponPivot/WeaponHitbox"]
-position = Vector2(0, -27)
-scale = Vector2(0.046875, 0.34375)
-texture = ExtResource("4_xt0g8")
+position = Vector2(1, -27)
+scale = Vector2(0.541667, 0.916667)
+texture = ExtResource("5_vnlea")
